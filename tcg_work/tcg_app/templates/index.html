@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>   
+{% load static %}
+<link rel="stylesheet" href="{% static 'mystyle.css' %}">
+
+<title>Mercader Galáctico</title>
+<div>
+    <form action="" method="post" id="input">
+        {% csrf_token %}
+        <textarea id="results" class="type1" name="results">{{response.inp_value}}</textarea>
+        <!-- <input id="results" type="text" name="results" value="{{response.inp_value}}"> -->
+        <input type="submit" value="Ver Respuesta">
+    </form>
+    <textarea class="type2" name="out_text">{{response.out_value}} </textarea>
+</div>
+</html>
