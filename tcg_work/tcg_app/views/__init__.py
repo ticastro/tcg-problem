@@ -1,1 +1,1 @@
-# Aqui tengo que importar todo lo hecho en las views siguientes. 
+from .index import index
