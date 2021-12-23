@@ -14,10 +14,15 @@ El objetivo de este repositorio es almacenar la aplicación que contiene la solu
 
 ## Uso
 
-La aplicación se encuentra en el link https://tcgchallenge.herokuapp.com/. En caso de querer probar la aplicación en local, es necesario seguir los siguientes pasos:
+La aplicación se encuentra en el link https://tcgchallenge.herokuapp.com/. 
 La aplicación corresponde a una vista única, en donde se encuentran dos campos de texto y un botón. El campo de texto a la izquierda es donde se debe introducir el texto de input, el cuál, al apretar el botón de en medio, será leído para entregar el output correspondiente en el campo de texto a la derecha.
+
+
 ## Uso en local
+
+  En caso de querer probar la aplicación en local, es necesario seguir los siguientes pasos:
 ### Clonar el repositorio en una carpeta
+
 ```
 git clone https://github.com/ticastro/tcg-problem.git
 ```
