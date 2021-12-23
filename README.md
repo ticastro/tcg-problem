@@ -4,7 +4,6 @@
 
 El objetivo de este repositorio es almacenar la aplicación que contiene la solución del desafío propuesto por TCG LATAM. El programa fue desarrollado en lenguaje Python utilizando el framework para aplicaciones Django. Además, se utiliza Heroku como host para levantar el servicio.
 
-![Default Home View](__screenshots/home.png?raw=true "Title")
 
 ## Principales Features
 * Traducción de strings a los números romanos correspondientes.
